@@ -18,6 +18,7 @@ cep.onclick = function apiCEP() {
     cidade.value = jsonOk.cidade;
     bairro.value = jsonOk.bairro;
     estado.value = jsonOk.estado;
+    cep_real.value = jsonOk.cep_real;
 
     console.log(jsonOk);
 
